@@ -4,11 +4,22 @@
         <item>@array/Monuments</item>
         </string-array>
     <string-array name="Monuments">
-        <item>MAUSOLÉE MOHAMMED V</item>
+        <item>MAUSOLEE MOHAMMED V</item>
         <item>LA RUE DES CONSULS</item>
         <item>LA TOUR HASSAN</item>
         <item>LA KASBAH DES OUDAYAS</item>
-        <item>LA MÉDINA</item>
-        <item>LA NÉCROPOLE DE CHELLAH</item>
+        <item>LA MEDINA</item>
+        <item>LA NECROPOLE DE CHELLAH</item>
     </string-array>
+
+    <string name="Categories">Categories</string>
+    <string name="MOHAMMEDV">Mausoleum of Mohammed V</string>
+    <string name="Consulsstreet">The Consuls Street</string>
+    <string name="Hassan">Hassan Tower</string>
+    <string name="Kasbah">Kasbah of the Udayas</string>
+    <string name="Medina">Medina quarter</string>
+    <string name="Chellah">The Chellah</string>
+    <string name="description">Rabat was founded in the 12th century by the Almohad ruler Abd al-Mumin as a military town.</string>
+
+
 </resources>

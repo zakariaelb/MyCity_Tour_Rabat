@@ -64,18 +64,16 @@ public class Monuments_Fragment extends Fragment {
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
         // Create a list of words
+        //final ArrayList<DATA> Monuments_Name = getResources().getStringArray(R.array.Monuments);//new ArrayList<DATA>();
         final ArrayList<DATA> Monuments_Name = new ArrayList<DATA>();
-        Monuments_Name.add(new DATA(getResources().getStringArray(R.array.Monuments), getResources().getStringArray(R.array.Monuments),
-                R.drawable.ic_crop_original_black_24dp));
+        Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
+                R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
+        Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
+                R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
+        Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
+                R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
 
-
-        /** Monuments_list.add(new DATA(R.array.Monuments, R.string.miwok_number_one,
-               * R.drawable.number_one, R.raw.number_one));
-        *words.add(new Word(R.string.number_two, R.string.miwok_number_two,
-                *R.drawable.number_two, R.raw.number_two));
-        */
-
-        MainView_Adapter adapter = new MainView_Adapter(getActivity(), DATA, R.color.colorAccent);
+        DATA_Adapter adapter = new DATA_Adapter(getActivity(), Monuments_Name, R.color.colorAccent);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
@@ -83,7 +81,7 @@ public class Monuments_Fragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 releaseMediaPlayer();
-                DATA data = Monuments_Name.get(position);
+                DATA data_ = Monuments_Name.get(position);
 
                 // Request audio focus so in order to play the audio file. The app needs to play a
                 // short audio file, so we will request audio focus with a short amount of time
@@ -93,7 +91,7 @@ public class Monuments_Fragment extends Fragment {
 
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
 
-                    mMediaPlayer = MediaPlayer.create(getActivity(), DATA.getMusicResource());
+                    mMediaPlayer = MediaPlayer.create(getActivity(), data_.getMusicResource());
                     mMediaPlayer.start(); // Start the audio file
 
                     mMediaPlayer.setOnCompletionListener(mCompletionListener);
