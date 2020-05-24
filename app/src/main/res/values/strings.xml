@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MyCity Tour - Rabat</string>
+    <string-array name="Categories">
+        <item>@array/Monuments</item>
+        </string-array>
+    <string-array name="Monuments">
+        <item>MAUSOLÉE MOHAMMED V</item>
+        <item>LA RUE DES CONSULS</item>
+        <item>LA TOUR HASSAN</item>
+        <item>LA KASBAH DES OUDAYAS</item>
+        <item>LA MÉDINA</item>
+        <item>LA NÉCROPOLE DE CHELLAH</item>
+    </string-array>
 </resources>

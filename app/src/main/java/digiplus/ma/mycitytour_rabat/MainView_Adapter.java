@@ -22,13 +22,13 @@ public class MainView_Adapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new NumbersFragment();
+            return new Monuments_Fragment();
         } else if (position == 1) {
-            return new FamilyFragment();
+            return new Monuments_Fragment();
         } else if (position == 2) {
-            return new ColorsFragment();
+            return new Monuments_Fragment();
         } else {
-            return new PhrasesFragment();
+            return new Monuments_Fragment();
         }
     }
 
@@ -40,13 +40,13 @@ public class MainView_Adapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.category_numbers);
+            return mContext.getString(R.string.app_name);
         } else if (position == 1) {
-            return mContext.getString(R.string.category_family);
+            return mContext.getString(R.string.app_name);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_colors);
+            return mContext.getString(R.string.app_name);
         } else {
-            return mContext.getString(R.string.category_phrases);
+            return mContext.getString(R.string.app_name);
         }
     }
 }
