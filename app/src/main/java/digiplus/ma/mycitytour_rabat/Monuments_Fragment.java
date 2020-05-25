@@ -67,7 +67,7 @@ public class Monuments_Fragment extends Fragment {
         //final ArrayList<DATA> Monuments_Name = getResources().getStringArray(R.array.Monuments);//new ArrayList<DATA>();
         final ArrayList<DATA> Monuments_Name = new ArrayList<DATA>();
         Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
-                R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
+                R.drawable.rabat1, R.raw.welcome));
         Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
                 R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
         Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,

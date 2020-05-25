@@ -49,7 +49,7 @@ public class DATA_Adapter extends ArrayAdapter<DATA> {
 
         View TXT_Container = list_Item_View.findViewById(R.id.Text_CONTAINER);
         int Color = ContextCompat.getColor(getContext(), mColorRes_Id);
-        TXT_Container.setBackgroundColor(Color);
+        //TXT_Container.setBackgroundColor(Color);
         return list_Item_View;
     }
 }
