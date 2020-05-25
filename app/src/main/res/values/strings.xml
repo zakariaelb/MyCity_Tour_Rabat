@@ -29,7 +29,16 @@
     <string name="Cinema">International Festival of Author s Cinema</string>
     <string name="Family">Hip Hop Family Festival</string>
     <string name="Event">Date event :</string>
-
-
-
+    <string name="Villam">Villa M</string>
+    <string name="latable">La Table du Réservoir</string>
+    <string name="palmiers">Les Trois Palmiers</string>
+    <string name="chill">Le Chill</string>
+    <string name="dhow">Le Dhow</string>
+    <string name="golden">Golden Fish</string>
+    <string name="alwarda">Al Warda</string>
+    <string name="so">So Lounge Rabat</string>
+    <string name="marsa">Al Marsa</string>
+    <string name="amber">Amber Bar</string>
+    <string name="gotham">Gotham the burger city</string>
+    <string name="address">Address</string>
 </resources>
