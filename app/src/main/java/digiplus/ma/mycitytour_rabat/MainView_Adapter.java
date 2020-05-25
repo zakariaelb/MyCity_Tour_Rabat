@@ -28,7 +28,7 @@ public class MainView_Adapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return new Lifestyle_Fragment();
         } else {
-            return new Monuments_Fragment();
+            return new Shopping_Fragment();
         }
     }
 

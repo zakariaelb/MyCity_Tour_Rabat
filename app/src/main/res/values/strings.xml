@@ -41,4 +41,12 @@
     <string name="amber">Amber Bar</string>
     <string name="gotham">Gotham the burger city</string>
     <string name="address">Address</string>
+    <string name="Arribat">Arribat Center</string>
+    <string name="Megamall">Mega Mall</string>
+    <string name="Square">Ryad Square</string>
+    <string name="Mahaj">Mahaj Riad</string>
+    <string name="Marjane">Marjane Hay Riad</string>
+    <string name="Gallery">Label Gallery</string>
+    <string name="Marina">Marina Shopping Centre</string>
+    <string name="Fall">Fall Ould Oumeir Shopping</string>
 </resources>
