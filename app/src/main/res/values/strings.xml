@@ -2,7 +2,7 @@
     <string name="app_name">MyCity Tour - Rabat</string>
     <string-array name="Categories">
         <item>@array/Monuments</item>
-        </string-array>
+    </string-array>
     <string-array name="Monuments">
         <item>MAUSOLEE MOHAMMED V</item>
         <item>LA RUE DES CONSULS</item>
@@ -19,6 +19,7 @@
     <string name="Kasbah">Kasbah of the Udayas</string>
     <string name="Medina">Medina quarter</string>
     <string name="Chellah">The Chellah</string>
+    <string name="Palais">Royal palace</string>
     <string name="description">Rabat was founded in the 12th century by the Almohad ruler Abd al-Mumin as a military town.</string>
 
 

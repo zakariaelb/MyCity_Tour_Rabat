@@ -67,11 +67,19 @@ public class Monuments_Fragment extends Fragment {
         //final ArrayList<DATA> Monuments_Name = getResources().getStringArray(R.array.Monuments);//new ArrayList<DATA>();
         final ArrayList<DATA> Monuments_Name = new ArrayList<DATA>();
         Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
-                R.drawable.rabat1, R.raw.welcome));
-        Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
-                R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
-        Monuments_Name.add(new DATA(R.string.MOHAMMEDV, R.string.description,
-                R.drawable.ic_crop_original_black_24dp, R.raw.welcome));
+                R.drawable.mausoleemohammed, R.raw.themausoleumofmohammed5));
+        Monuments_Name.add(new DATA(R.string.Consulsstreet, R.string.description,
+                R.drawable.medina, R.raw.theconsulsstreet));
+        Monuments_Name.add(new DATA(R.string.Chellah, R.string.description,
+                R.drawable.chellah, R.raw.welcome));
+        Monuments_Name.add(new DATA(R.string.Consulsstreet, R.string.description,
+                R.drawable.consuls, R.raw.welcome));
+        Monuments_Name.add(new DATA(R.string.Hassan, R.string.description,
+                R.drawable.tourhassan, R.raw.hassantower));
+        Monuments_Name.add(new DATA(R.string.Kasbah, R.string.description,
+                R.drawable.rabat1, R.raw.kasbahoftheudayas));
+        Monuments_Name.add(new DATA(R.string.Palais, R.string.description,
+                R.drawable.palaisroyal, R.raw.royalpalace));
 
         DATA_Adapter adapter = new DATA_Adapter(getActivity(), Monuments_Name, R.color.colorAccent);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
