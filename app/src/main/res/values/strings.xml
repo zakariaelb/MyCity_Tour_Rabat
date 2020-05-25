@@ -13,6 +13,7 @@
     </string-array>
 
     <string name="Categories">Categories</string>
+    <string name="Culture">Culture in Rabat</string>
     <string name="MOHAMMEDV">Mausoleum of Mohammed V</string>
     <string name="Consulsstreet">The Consuls Street</string>
     <string name="Hassan">Hassan Tower</string>
@@ -21,6 +22,14 @@
     <string name="Chellah">The Chellah</string>
     <string name="Palais">Royal palace</string>
     <string name="description">Rabat was founded in the 12th century by the Almohad ruler Abd al-Mumin as a military town.</string>
+    <string name="Mawazine">Mawazine festival</string>
+    <string name="Fete">Fête de la musique</string>
+    <string name="Jazz">Jazz at Chellah</string>
+    <string name="Kids">Kids Festival</string>
+    <string name="Cinema">International Festival of Author s Cinema</string>
+    <string name="Family">Hip Hop Family Festival</string>
+    <string name="Event">Date event :</string>
+
 
 
 </resources>

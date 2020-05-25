@@ -24,7 +24,7 @@ public class MainView_Adapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new Monuments_Fragment();
         } else if (position == 1) {
-            return new Monuments_Fragment();
+            return new Culture_Fragment();
         } else if (position == 2) {
             return new Monuments_Fragment();
         } else {
