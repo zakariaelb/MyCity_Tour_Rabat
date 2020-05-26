@@ -40,13 +40,13 @@ public class MainView_Adapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.Monuments);
         } else if (position == 1) {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.Cultur);
         } else if (position == 2) {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.LifeStyle);
         } else {
-            return mContext.getString(R.string.app_name);
+            return mContext.getString(R.string.Shopping);
         }
     }
 }

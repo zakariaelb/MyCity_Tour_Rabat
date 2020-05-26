@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">MyCity Tour - Rabat</string>
-    <string-array name="Categories">
-        <item>@array/Monuments</item>
+    <string-array name="Categorie">
+        <item>@array/Monument</item>
     </string-array>
-    <string-array name="Monuments">
+    <string-array name="Monument">
         <item>MAUSOLEE MOHAMMED V</item>
         <item>LA RUE DES CONSULS</item>
         <item>LA TOUR HASSAN</item>
@@ -13,7 +13,11 @@
     </string-array>
 
     <string name="Categories">Categories</string>
-    <string name="Culture">Culture in Rabat</string>
+    <string name="Monuments">Monuments</string>
+    <string name="Shopping">Shopping</string>
+    <string name="LifeStyle">LifeStyle</string>
+    <string name="Culture">Culture</string>
+    <string name="Cultur">Culture</string>
     <string name="MOHAMMEDV">Mausoleum of Mohammed V</string>
     <string name="Consulsstreet">The Consuls Street</string>
     <string name="Hassan">Hassan Tower</string>
